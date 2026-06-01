@@ -1,0 +1,16 @@
+{
+  "name": "overload-server",
+  "version": "1.0.0",
+  "description": "Progressive overload app backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "sql.js": "^1.10.2"
+  }
+}
